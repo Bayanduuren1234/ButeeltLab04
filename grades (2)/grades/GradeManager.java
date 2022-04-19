@@ -113,7 +113,7 @@ public class GradeManager {
 					if (input.startsWith("add"))
 					{
 						System.out.println("Nemeh ymaa bich");
-						gm.addGrade(input);
+						gm.addGrade(cin.readLine());
 						System.out.println("Amjilttai nemegdlee");
 						// TODO: YOUR CODE HERE
 					} 
@@ -130,8 +130,6 @@ public class GradeManager {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				
-			
 		}
 	}
 

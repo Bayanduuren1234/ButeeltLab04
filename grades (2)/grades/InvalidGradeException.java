@@ -5,6 +5,6 @@ package grades;
  *
  */
 public class InvalidGradeException extends Exception {
-
+	
 	
 }
